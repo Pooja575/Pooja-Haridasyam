@@ -11,7 +11,7 @@ export const Footer = () => {
         <Row className="justify-content-center align-items-center text-center">
           <Col xs={12}>
             <div className="social-icon" style={{justifyContent: 'center' }}>
-              <a href="https://www.linkedin.com/in/poojah0222/"><img src={navIcon1} alt="Icon" className="icon-animate" /></a>
+              <a href="https://www.linkedin.com/in/haridasyampoojaa/"><img src={navIcon1} alt="Icon" className="icon-animate" /></a>
               <a href="https://github.com/Pooja575"><img src={navIcon2} alt="Icon" className="icon-animate" /></a>
               <a href="https://www.facebook.com/profile.php?id=61556963707806"><img src={navIcon3} alt="Icon" className="icon-animate" /></a>
             </div>

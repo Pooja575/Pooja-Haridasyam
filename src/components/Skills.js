@@ -26,18 +26,18 @@ export const Skills = () => {
   };
 
   const skills = [
-    { name: "React", proficiency: 90 },
-    { name: "React-Native", proficiency: 90 },
-    { name: "Spring Boot", proficiency: 75 },
-    { name: "Web Dev", proficiency: 90 },
+    { name: "Azure", proficiency: 90 },
+    { name: "AWS", proficiency: 90 },
+    { name: "GCP", proficiency: 70 },
+    { name: "SQL", proficiency: 95 },
     { name: "Python", proficiency: 90 },
-    { name: "Cloud", proficiency:90 },
-    { name: "Type-Script", proficiency:90 },
-    { name: "Java", proficiency:90 },
-    { name: "node.js", proficiency:75 },
-    { name: "express.js", proficiency:70 },
-    { name: "databases", proficiency:95 },
-    { name: "Javascript", proficiency:90 }
+    { name: "Apache Spark", proficiency:90 },
+    { name: "PySpark", proficiency:90 },
+    { name: "Databricks", proficiency:90 },
+    { name: "Kafka", proficiency:80 },
+    { name: "Airflow", proficiency:80 },
+    { name: "Databases", proficiency:95 },
+    { name: "Docker", proficiency:75 }
 
   ];
 

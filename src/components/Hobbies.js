@@ -5,7 +5,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import Lottie from 'lottie-react';
-import hobbiesAnimation from '../assets/img/hobbies.json'; // Adjust the path to your hobbies.json animation file
+import hobbiesAnimation from '../assets/img/hobbies.json'; 
 import './Hobbies.css';
 
 export const Hobbies = () => {
@@ -13,7 +13,7 @@ export const Hobbies = () => {
     {
       title: "K-Pop",
       description:"K-Pop is my energy boost, connecting me to vibrant music, powerful performances, and a passionate community. I enjoy discovering new artists and keeping up with the latest comebacks.",
-      iconClass: "bi bi-music-note-beamed", // Example of using Bootstrap icons
+      iconClass: "bi bi-music-note-beamed", 
     },
     {
       title: "Photography",

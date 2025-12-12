@@ -73,7 +73,7 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "I am Pooja!" ]'><span className="wrap">{text}</span></span></h1>
-                  <p style = {{color:'#fff'}}>I'm Pooja Haridasyam, a Java Full Stack Developer passionate about crafting scalable and efficient web applications. Let's build the future of tech—together.</p>
+                  <p style = {{color:'#fff'}}>I'm Pooja Haridasyam, a Data Engineer focused on turning complex data into fast, reliable, production-ready systems.</p>
 
                   <button onClick={scrollToAboutMe} className="about-button">More about me <ArrowRightCircle size={25} /></button>
                 </div>
