@@ -16,7 +16,7 @@ export const Footer = () => {
               <a href="https://www.facebook.com/profile.php?id=61556963707806"><img src={navIcon3} alt="Icon" className="icon-animate" /></a>
             </div>
             <p className="footer-text">Let's connect on social media</p>
-            <p className="footer-text">&copy; 2025. All Rights Reserved</p>
+            <p className="footer-text">&copy; 2026. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

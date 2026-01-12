@@ -1,12 +1,12 @@
 import { Container, Row, Col, Tab, Nav, Button } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { ArrowRightCircle } from 'react-bootstrap-icons'; 
-import projImg1 from "../assets/img/project1.png";
+import projImg1 from "../assets/img/supplychainproject.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project3.jpg";
 import projImg4 from "../assets/img/project4.png";
 import projImg5 from "../assets/img/project5.jpg";
-import projImg6 from "../assets/img/project6.avif";
+import projImg6 from "../assets/img/musicstoreproject.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import '../App.css'; 
@@ -14,10 +14,10 @@ import '../App.css';
 export const Projects = () => {
   const projects = [
     {
-      title: "Responsive Travel and Stay Website ",
-      description: "Design & Development",
+      title: " Supply Chain & Product Performance Analytics ",
+      description: "SQL & BI Analytics",
       imgUrl: projImg1,
-      url: "https://github.com/Pooja575/travelwebsite.git"
+      url: "https://github.com/Pooja575/Grainger-Product-Analysis.git"
     },
     {
       title: "Intelligent Album Manager ",
@@ -44,10 +44,10 @@ export const Projects = () => {
       url: "https://github.com/Pooja575/sports"
     },
     {
-      title: "Smart Note App",
-      description: "Design & Development",
+      title: "Music Store Sales Analysis Dashboard",
+      description: "SQL & BI Analytics",
       imgUrl: projImg6,
-      url: "https://github.com/Pooja575/Keeper-app"
+      url: "https://github.com/Pooja575/Music-Store-Analysis.git"
     },
   ];
 
